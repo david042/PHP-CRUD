@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Sistema Comercial </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <fieldset>
+            <legend> Login no Banco de Dados </legend>
+            <form action="redirect.php" method="POST">
+                <label for="host"> Servidor: </label><br>
+                <input required type="text" placeholder="localhost" name="host" id="host"><br>
+                <label for="usuario"> Usuário: </label><br>
+                <input required type="text" placeholder="root" name="username" id="username"><br>
+                <label for="senha"> Senha: </label><br>
+                <input required type="password" placeholder="usbw" name="password" id="password"><br>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
